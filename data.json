@@ -1,0 +1,376 @@
+{
+    "root": {
+        "props": {
+            "title": "test"
+        }
+    },
+    "zones": {},
+    "content": [
+        {
+            "type": "Hero1",
+            "props": {
+                "id": "Hero1-793ea387-eb75-44f5-b59e-ae54ef718d25",
+                "title": "Create Scroll-Stopping Ads with AI",
+                "tagline": "AI AD CREATION",
+                "description": "Effortlessly generate high-converting social media ads in minutes with our AI-powered generator. Tailor your campaigns with data-driven insights, dynamic creatives, and optimized targeting to maximize engagement and accelerate your growth without any design skills.",
+                "highlightedWord": "Scroll-Stopping",
+                "primaryButtonDetails": {
+                    "primaryButtonLink": "#get-started",
+                    "primaryButtonText": "Create Your Ads Now"
+                },
+                "secondaryButtonDetails": {
+                    "secondaryButtonLink": "#features",
+                    "secondaryButtonText": "Discover Features",
+                    "showSecondaryButton": false
+                }
+            }
+        },
+        {
+            "type": "ProblemBlock1",
+            "props": {
+                "id": "ProblemBlock1-5ea79086-d665-482d-88a3-cb2b0045dc05",
+                "highlightedWord": "Creation",
+                "comparisonHeadline": "AI-Powered Ad Creation vs Manual Campaign Efforts",
+                "visualBuilderDetails": {
+                    "visualBuilderTitle": "Create with AdGenius",
+                    "visualBuilderAdvantages": [
+                        {
+                            "advantageIcon": "ClipboardList",
+                            "advantageTitle": "Instant Social Ads",
+                            "advantageDescription": "Generate tailored, attention-grabbing ads optimized for Facebook, Instagram, LinkedIn, and TikTok in seconds using AI-driven templates."
+                        },
+                        {
+                            "advantageIcon": "Timer",
+                            "advantageTitle": "Seamless Automation",
+                            "advantageDescription": "Automatically customize ad copy, visuals, and targeting to match your audience and campaign goals without lifting a finger."
+                        },
+                        {
+                            "advantageIcon": "DollarSign",
+                            "advantageTitle": "Boost ROI & Engagement",
+                            "advantageDescription": "Create compelling ads that increase click-through rates, conversions, and brand awareness faster than traditional manual approaches."
+                        }
+                    ]
+                },
+                "comparisonSubheadline": "Discover how AdGenius transforms social media campaigns with smart AI ad creation tailored for your brand’s success",
+                "traditionalDevDetails": {
+                    "traditionalDevTitle": "Manual Ad Creation Challenges",
+                    "traditionalDevDrawbacks": [
+                        {
+                            "drawbackText": "Time-consuming content development"
+                        },
+                        {
+                            "drawbackText": "High costs hiring creative teams"
+                        },
+                        {
+                            "drawbackText": "Inconsistent messaging across platforms"
+                        },
+                        {
+                            "drawbackText": "Difficult to scale campaigns quickly"
+                        },
+                        {
+                            "drawbackText": "Slow adaptation to social trends"
+                        },
+                        {
+                            "drawbackText": "Limited targeting precision and personalization"
+                        }
+                    ]
+                },
+                "callToActionButtonLink": "#get-started",
+                "callToActionButtonText": "Launch Your AI Ads Today",
+                "closingCallToActionText": "Join thousands elevating their social media marketing with AdGenius’ AI-powered ad generator"
+            }
+        },
+        {
+            "type": "Solution1",
+            "props": {
+                "id": "Solution1-acf2f781-7372-4cd9-bbea-1c4b7414d373",
+                "ctaButton": {
+                    "buttonLink": "#try-for-free",
+                    "buttonText": "Launch Your First Ad",
+                    "showButton": true
+                },
+                "headerContent": {
+                    "mainTitle": "Ads That Click.",
+                    "description": "Create compelling social media ads instantly with our AI-powered generator that crafts tailor-made campaigns designed to captivate your audience and drive real results—no design skills required."
+                },
+                "solutionItems": [
+                    {
+                        "solutionTitle": "Dynamic Ad Templates",
+                        "solutionSubTitle": "Personalized for your brand.",
+                        "solutionDescription": "Access a diverse library of AI-crafted templates that adapt to your brand’s voice and goals, empowering you to launch high-converting ads in minutes."
+                    },
+                    {
+                        "solutionTitle": "AI-Optimized Copy",
+                        "solutionSubTitle": "Engage with precision messaging.",
+                        "solutionDescription": "Leverage smart AI that generates persuasive ad copy tailored to your target audience’s preferences, maximizing click-through and conversion rates effortlessly."
+                    },
+                    {
+                        "solutionTitle": "Multi-Channel Integration",
+                        "solutionSubTitle": "Seamless deployment everywhere.",
+                        "solutionDescription": "Automatically format and optimize ads for Facebook, Instagram, TikTok, LinkedIn, and more to ensure your campaigns perform flawlessly across all social platforms."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProof1",
+            "props": {
+                "id": "SocialProof1-b7a2f0f1-c8c2-4599-ac15-b362e68ea90c",
+                "title": "Loved by Marketers Worldwide",
+                "description": "Hear why brands trust our AI Ad Generator:",
+                "testimonials": [
+                    {
+                        "quote": "Using this AI Ad Generator skyrocketed our social media engagement and boosted conversions effortlessly.",
+                        "title": "Marketing Director, BrightWave",
+                        "author": "Sophia Lee",
+                        "rating": 5,
+                        "avatarId": 4,
+                        "highlightedText": "skyrocketed our social media engagement"
+                    },
+                    {
+                        "quote": "This tool saves us hours creating ads and helps craft targeted content that truly connects with our audience.",
+                        "title": "Social Media Manager, TrendHive",
+                        "author": "Carlos Mendoza",
+                        "rating": 5,
+                        "avatarId": 5,
+                        "highlightedText": "saves us hours creating ads"
+                    },
+                    {
+                        "quote": "I rely on this AI generator to deliver high-converting ad copy across multiple platforms every campaign.",
+                        "title": "Growth Lead, NovaTech",
+                        "author": "Elaine Park",
+                        "rating": 5,
+                        "avatarId": 6,
+                        "highlightedText": "high-converting ad copy"
+                    }
+                ],
+                "titleHighlightedText": "Over 5,000+ Brands"
+            }
+        },
+        {
+            "type": "Features1",
+            "props": {
+                "id": "Features1-03643de3-fc61-4dd1-b1c5-47c573dea47c",
+                "label": "- FEATURE 1",
+                "title": "Create smarter ads with ",
+                "button": {
+                    "link": "#try-for-free",
+                    "show": true,
+                    "text": "Generate My First Ad"
+                },
+                "description": "Leverage cutting-edge AI to craft tailored social media ads in minutes, boosting engagement and maximizing campaign ROI with minimal effort.",
+                "titleHighlightedText": "AI"
+            }
+        },
+        {
+            "type": "Features2",
+            "props": {
+                "id": "Features2-40e2e422-d254-4f8c-897b-bc0ea03cb1bd",
+                "label": "- FEATURE 2",
+                "title": "Create ads that convert with AI ",
+                "button": {
+                    "link": "#try-for-free",
+                    "show": true,
+                    "text": "Generate My First Ad"
+                },
+                "description": "Our AI-powered ad generator crafts compelling, targeted social media campaigns that boost engagement and maximize ROI by analyzing your audience and trends in real time.",
+                "titleHighlightedText": "AI"
+            }
+        },
+        {
+            "type": "Pricing1",
+            "props": {
+                "id": "Pricing1-c0155bec-0c50-4004-aeb5-7922d7fc6789",
+                "plans": [
+                    {
+                        "cta": "Start Creating Ads",
+                        "name": "Basic",
+                        "badge": "",
+                        "price": 9,
+                        "featured": false,
+                        "description": "Perfect for freelancers and solo creators",
+                        "featureFlags": [
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": false
+                            },
+                            {
+                                "value": false
+                            },
+                            {
+                                "value": false
+                            }
+                        ]
+                    },
+                    {
+                        "cta": "Boost Your Campaigns",
+                        "name": "Pro",
+                        "badge": "Most Popular",
+                        "price": 19,
+                        "featured": true,
+                        "description": "Ideal for startups and marketing teams",
+                        "featureFlags": [
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": false
+                            }
+                        ]
+                    },
+                    {
+                        "cta": "Scale Your Ads Now",
+                        "name": "Business",
+                        "badge": "",
+                        "price": 99,
+                        "featured": false,
+                        "description": "Built for enterprises demanding full control",
+                        "featureFlags": [
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            }
+                        ]
+                    }
+                ],
+                "title": "Transparent",
+                "features": [
+                    {
+                        "value": "Unlimited AI-generated ads"
+                    },
+                    {
+                        "value": "24/7 expert support"
+                    },
+                    {
+                        "value": "Custom branding options"
+                    },
+                    {
+                        "value": "In-depth campaign analytics"
+                    }
+                ],
+                "description": "Simple, flexible pricing designed to empower your social media advertising with AI-driven creativity and precision."
+            }
+        },
+        {
+            "type": "FAQ1",
+            "props": {
+                "id": "FAQ1-0b107a8f-6fbf-4902-a384-280bc30c5097",
+                "faqs": [
+                    {
+                        "question": "How does this AI ad generator work?",
+                        "answer": "Our AI-powered platform creates tailor-made social media ads in minutes by analyzing your brand and target audience to deliver high-impact, conversion-optimized campaigns effortlessly."
+                    },
+                    {
+                        "question": "What benefits can I expect?",
+                        "answer": "Experience faster ad creation, improved engagement, and higher ROI with our smart automation that removes guesswork and accelerates your social media marketing success."
+                    },
+                    {
+                        "question": "Is it easy to use for non-experts?",
+                        "answer": "Definitely. Designed with simplicity in mind, you can generate professional ads without any design skills or complex setups—just input your goals and see results instantly."
+                    },
+                    {
+                        "question": "Do you offer custom solutions?",
+                        "answer": "Yes! Our team works with you to customize features and campaign strategies that fit your unique business needs and budget, ensuring maximum effectiveness."
+                    },
+                    {
+                        "question": "Is there a free trial available?",
+                        "answer": "Absolutely. Try our AI Ad Generator free for 14 days with no credit card required—discover how easy and powerful creating ads can be."
+                    },
+                    {
+                        "question": "How do I get started?",
+                        "answer": "Click the “Create Your Ad” button at the top to sign up and launch your first AI-driven social media campaign within minutes."
+                    }
+                ],
+                "title": "FAQs"
+            }
+        },
+        {
+            "type": "About1",
+            "props": {
+                "id": "About1-f69c71a0-2c9a-4cbb-81b4-0e2aff409c85",
+                "label": "- MEET THE CREATOR",
+                "outro": "I'm building Luke AI in public and sharing my journey along the way. Feel free to check out my progress and send me your thoughts! 🚀",
+                "heading": "Hey, I'm Luke",
+                "subtitle": "Driven by innovation.",
+                "paragraphs": [
+                    {
+                        "value": "I'm the innovator behind Luke AI, the smart AI Ad Generator designed to craft high-impact social media campaigns in seconds."
+                    },
+                    {
+                        "value": "Clients often ask me:"
+                    },
+                    {
+                        "value": "- How can I create ads that stand out instantly?- How do I save time without sacrificing creativity?"
+                    },
+                    {
+                        "value": "My solution: Unleash AI-powered ad creation that delivers captivating, tailored content fast."
+                    }
+                ],
+                "principles": [
+                    {
+                        "title": "Effortless Ad Creation",
+                        "description": "User-friendly interface that crafts compelling ads with no design skills needed"
+                    },
+                    {
+                        "title": "AI Precision & Personalization",
+                        "description": "Smart algorithms generate targeted copy and visuals optimized for your audience"
+                    },
+                    {
+                        "title": "Launch Campaigns in Minutes",
+                        "description": "Ready-to-go ad templates built to boost engagement and conversions instantly"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "CTA1",
+            "props": {
+                "id": "CTA1-899ad685-070f-4415-9413-81273bea7701",
+                "button": {
+                    "link": "#start-trial",
+                    "show": true,
+                    "text": "Create Ads in Seconds"
+                },
+                "avatars": [
+                    {
+                        "avatarId": 32
+                    },
+                    {
+                        "avatarId": 44
+                    },
+                    {
+                        "avatarId": 65
+                    },
+                    {
+                        "avatarId": 75
+                    },
+                    {
+                        "avatarId": 12
+                    },
+                    {
+                        "avatarId": 68
+                    }
+                ],
+                "heading": "Maximize Impact, Minimize Effort",
+                "description": "Unlock the power of AI to craft eye-catching social media ads tailored to your brand, driving higher engagement and sales faster than ever.",
+                "foundersCount": 3582
+            }
+        }
+    ]
+}

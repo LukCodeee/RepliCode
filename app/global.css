@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme {
+  /* --- Neutral Palette --- */
+  --color-neutral-50: oklch(0.98 0.004 255.55); /* #f7f8f9 */
+  --color-neutral-100: oklch(0.95 0.007 255.46); /* #edeff0 */
+  --color-neutral-200: oklch(0.9 0.011 255.08); /* #dde0e3 */
+  --color-neutral-300: oklch(0.83 0.017 253.68); /* #c6ccd0 */
+  --color-neutral-400: oklch(0.74 0.027 250.48); /* #a7b3bc */
+  --color-neutral-500: oklch(0.66 0.034 249.34); /* #8e9ba6 */
+  --color-neutral-600: oklch(0.58 0.038 249.28); /* #72828c */
+  --color-neutral-700: oklch(0.5 0.041 249.15); /* #586a76 */
+  --color-neutral-800: oklch(0.44 0.041 249.31); /* #465762 */
+  --color-neutral-900: oklch(0.38 0.041 250.01); /* #3a4855 */
+  --color-neutral-950: oklch(0.28 0.037 250.18); /* #1f2a33 */
+
+  /* --- Primary Palette (Orange from Webcrumbs) --- */
+  /* --color-primary-50:  oklch(97.3% 0.035 35);  
+  --color-primary-100: oklch(94.4% 0.058 35);  
+  --color-primary-200: oklch(86.7% 0.102 35);  
+  --color-primary-300: oklch(77.5% 0.142 35);  
+  --color-primary-400: oklch(64.5% 0.193 35);  
+  --color-primary-500: oklch(55.5% 0.204 35);  
+  --color-primary-600: oklch(47.6% 0.180 35);  
+  --color-primary-700: oklch(39.0% 0.151 35);  
+  --color-primary-800: oklch(32.9% 0.131 35);  
+  --color-primary-900: oklch(28.0% 0.113 35);  
+  --color-primary-950: oklch(15.5% 0.079 35);   */
+
+  
+   /* --- Primary Palette (New Red/Orange) --- */
+   /* --color-primary-50: oklch(0.97 0.018 27.01);  
+   --color-primary-100: oklch(0.93 0.04 27.46);  
+   --color-primary-200: oklch(0.87 0.076 27.09); 
+   --color-primary-300: oklch(0.79 0.124 26.74); 
+   --color-primary-400: oklch(0.67 0.203 27.13); 
+   --color-primary-500: oklch(0.62 0.219 27.46); 
+   --color-primary-600: oklch(0.56 0.238 27.11); 
+   --color-primary-700: oklch(0.48 0.21 27.55);  
+   --color-primary-800: oklch(0.41 0.181 27.64); 
+   --color-primary-900: oklch(0.36 0.15 27.81);  
+   --color-primary-950: oklch(0.24 0.098 27.02);  */
+
+  /* --- Primary Palette (Blue) --- */
+  /* --color-primary-50: oklch(0.98 0.016 236.97);   */
+  /* --color-primary-100: oklch(0.96 0.032 236.85);  */
+  /* --color-primary-200: oklch(0.92 0.062 236.58);  */
+  /* --color-primary-300: oklch(0.9 0.095 236.33);   */
+  /* --color-primary-400: oklch(0.83 0.127 235.87);  */
+  /* --color-primary-500: oklch(0.76 0.148 235.14);  */
+  /* --color-primary-600: oklch(0.69 0.16 248.24);   */
+  /* --color-primary-700: oklch(0.6 0.162 250.68);   */
+  /* --color-primary-800: oklch(0.5 0.146 252.57);   */
+  /* --color-primary-900: oklch(0.42 0.114 252.15);  */
+  /* --color-primary-950: oklch(0.3 0.07 251.58);    */
+
+  /* --- Primary Palette (Brown) --- */
+    /* --color-primary-50: oklch(0.97 0.006 61.78);
+    --color-primary-100: oklch(0.92 0.013 61.19);
+    --color-primary-200: oklch(0.82 0.028 60.03);
+    --color-primary-300: oklch(0.71 0.046 58.69);
+    --color-primary-400: oklch(0.62 0.056 57.3);
+    --color-primary-500: oklch(0.56 0.062 56.31);
+    --color-primary-600: oklch(0.48 0.061 55.5);
+    --color-primary-700: oklch(0.41 0.055 50.54);
+    --color-primary-800: oklch(0.35 0.045 44.72);
+    --color-primary-900: oklch(0.3 0.035 40.45);
+    --color-primary-950: oklch(0.21 0.022 36.19); */
+
+    /* --- Primary Palette (Purple) --- */
+    --color-primary-50: oklch(0.97 0.017 289.18);
+    --color-primary-100: oklch(0.94 0.034 289.23);
+    --color-primary-200: oklch(0.88 0.069 289.11);
+    --color-primary-300: oklch(0.79 0.122 289.17);
+    --color-primary-400: oklch(0.67 0.178 289.28);
+    --color-primary-500: oklch(0.57 0.23 288.97);
+    --color-primary-600: oklch(0.49 0.28 288.6);
+    --color-primary-700: oklch(0.43 0.261 289.07);
+    --color-primary-800: oklch(0.36 0.209 289.54);
+    --color-primary-900: oklch(0.31 0.178 290.15);
+    --color-primary-950: oklch(0.21 0.129 291.6);
+
+  /* --- Core Semantic Alias --- */
+  --color-primary: var(--color-primary-500);
+
+  /* --- Static Colors --- */
+  --color-white: oklch(1 0 0);
+  --color-black: oklch(0 0 0);
+
+  /* --- Base Theme Values --- */
+  /* --radius-md: 12px; /* Removed as explicit rule will be added */
+
+  /* Add other theme variables like spacing, fonts if needed */
+  /* Example: --spacing: 0.25rem; */
+}
+
+/* Custom Global Base Styles */
+@layer base {
+  .border-neutral-100 {
+    /* Use the variable defined in @theme */
+    border-color: var(--color-neutral-100);
+  }
+  .border {
+      border-width: 1px;
+  }
+  .rounded {
+      border-radius: 12px;
+  }
+  .font-poppins {
+    font-family: 'Poppins', var(--font-poppins);
+  }
+}
