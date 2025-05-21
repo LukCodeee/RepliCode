@@ -2,9 +2,9 @@
     "env": {
       "TEMPLATE_ID": {
         "type": "text",
-        "value": "example123"
+        "value": ""
       },
-      "TEMPLATE_API": {
+      "STRUCTURE_API": {
         "type": "text",
         "value": "https://replicode.co/api/templates/"
       }
