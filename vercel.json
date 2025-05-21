@@ -11,7 +11,7 @@
     },
     "build": {
       "env": {
-        "TEMPLATE_ID": "",
+        "TEMPLATE_ID": "default-id",
         "TEMPLATE_API": "https://replicode.co/api/templates/"
       }
     }
