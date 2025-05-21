@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 async function run() {
-  const id = process.env.TEMPLATE_ID;
+  const id = "92048f85-3ab5-4073-b8bc-6009c7361acc";
   const endpoint = process.env.TEMPLATE_API || 'https://replicode.co/api/templates/';
 
   if (!id) {
