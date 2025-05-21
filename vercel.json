@@ -1,10 +1,4 @@
 {
-    "build": {
-      "env": {
-        "TEMPLATE_ID": "@template-id",
-        "TEMPLATE_API": "@template-api"
-      }
-    },
     "env": {
       "TEMPLATE_ID": {
         "type": "text",
@@ -13,6 +7,12 @@
       "TEMPLATE_API": {
         "type": "text",
         "value": "https://replicode.co/api/templates/"
+      }
+    },
+    "build": {
+      "env": {
+        "TEMPLATE_ID": "",
+        "TEMPLATE_API": "https://replicode.co/api/templates/"
       }
     }
   }
