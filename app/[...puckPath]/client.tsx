@@ -55,7 +55,7 @@ export function Client({ path, isEdit }: { path: string; isEdit: boolean }) {
   }
 
   if (data.content) {
-    return <Render config={config} data={resolvedData} metadata={metadata} />;
+    return <Render config={config} data={resolvedData} />;
   }
 
   return (
