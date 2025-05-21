@@ -1,0 +1,34 @@
+name: Fetch data.json based on TEMPLATE_ID
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: sudo apt-get install -y curl jq
+
+      - name: Read TEMPLATE_ID from .env.local
+        run: |
+          TEMPLATE_ID=$(grep TEMPLATE_ID .env.local | cut -d '=' -f2)
+          echo "TEMPLATE_ID=$TEMPLATE_ID" >> $GITHUB_ENV
+
+      - name: Fetch and write data.json
+        run: |
+          curl -s "https://replicode.co/api/templates/${TEMPLATE_ID}" | jq '.' > public/data.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data.json
+          git commit -m "Add fetched data.json from templateId ${TEMPLATE_ID}" || echo "No changes"
+          git push
