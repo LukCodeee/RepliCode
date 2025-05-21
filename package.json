@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "ts-node scripts/fetch-structure.ts"
+    "postinstall": "node scripts/fetch-structure.js"
   },
   "dependencies": {
     "@measured/puck": "^0.18.3",
