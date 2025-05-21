@@ -25,9 +25,13 @@ async function run() {
 
   const json = await fetchJson(`${endpoint}${id}`);
 
-  const outputPath = path.join(process.cwd(), 'data', 'data.json');
+  console.log(json, 'json');
+
+  const outputPath = path.join(process.cwd(), 'data.json');
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(outputPath, JSON.stringify(json, null, 2));
+
+  console.log(outputPath, 'outputPath');
 
   console.log('✅ Page structure saved to data/data.json');
 }
