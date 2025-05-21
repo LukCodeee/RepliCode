@@ -1,0 +1,376 @@
+{
+    "root": {
+        "props": {
+            "title": "test"
+        }
+    },
+    "zones": {},
+    "content": [
+        {
+            "type": "Hero1",
+            "props": {
+                "id": "Hero1-793ea387-eb75-44f5-b59e-ae54ef718d25",
+                "title": "Create Impactful Videos with AI",
+                "tagline": "AI VIDEO CREATION",
+                "description": "Harness the power of AI to effortlessly produce captivating social media videos that drive engagement and grow your brand. Customize professional styles, optimize for every platform, and turn ideas into scroll-stopping content in minutes—no editing experience needed.",
+                "highlightedWord": "Impactful",
+                "primaryButtonDetails": {
+                    "primaryButtonLink": "#get-started",
+                    "primaryButtonText": "Start Creating Now"
+                },
+                "secondaryButtonDetails": {
+                    "secondaryButtonLink": "#features",
+                    "secondaryButtonText": "Discover Features",
+                    "showSecondaryButton": false
+                }
+            }
+        },
+        {
+            "type": "ProblemBlock1",
+            "props": {
+                "id": "ProblemBlock1-5ea79086-d665-482d-88a3-cb2b0045dc05",
+                "highlightedWord": "Creation",
+                "comparisonHeadline": "AI-Powered Video Creation vs Manual Editing Hassles",
+                "visualBuilderDetails": {
+                    "visualBuilderTitle": "Create with VidBot",
+                    "visualBuilderAdvantages": [
+                        {
+                            "advantageIcon": "ClipboardList",
+                            "advantageTitle": "Instant Social-Ready Videos",
+                            "advantageDescription": "Produce stunning, optimized videos for Instagram, TikTok, Facebook and beyond in minutes, powered by smart AI templates designed for maximum platform impact."
+                        },
+                        {
+                            "advantageIcon": "Timer",
+                            "advantageTitle": "Seamless Automation",
+                            "advantageDescription": "Effortlessly automate editing and tailor content to your audience with intelligent tools that save time and keep your social feed dynamic daily."
+                        },
+                        {
+                            "advantageIcon": "DollarSign",
+                            "advantageTitle": "Boost Engagement & Growth",
+                            "advantageDescription": "Elevate your brand’s reach with captivating videos engineered to amplify shares, increase followers, and accelerate conversions faster than traditional video methods."
+                        }
+                    ]
+                },
+                "comparisonSubheadline": "Discover how VidBot transforms social video creation with lightning-fast AI tools that align perfectly with your brand’s voice",
+                "traditionalDevDetails": {
+                    "traditionalDevTitle": "The Struggles of Classic Video Production",
+                    "traditionalDevDrawbacks": [
+                        {
+                            "drawbackText": "Cumbersome, time-intensive editing"
+                        },
+                        {
+                            "drawbackText": "Expensive professional editing fees"
+                        },
+                        {
+                            "drawbackText": "Inconsistent messaging and branding"
+                        },
+                        {
+                            "drawbackText": "Scaling content output feels impossible"
+                        },
+                        {
+                            "drawbackText": "Slow turnaround stifles social momentum"
+                        },
+                        {
+                            "drawbackText": "Hard to adapt quickly to trending content"
+                        }
+                    ]
+                },
+                "callToActionButtonLink": "#get-started",
+                "callToActionButtonText": "Create Viral Videos Today",
+                "closingCallToActionText": "Join thousands revolutionizing their social presence with VidBot’s AI-powered video generator designed for creators like you"
+            }
+        },
+        {
+            "type": "Solution1",
+            "props": {
+                "id": "Solution1-acf2f781-7372-4cd9-bbea-1c4b7414d373",
+                "ctaButton": {
+                    "buttonLink": "#try-for-free",
+                    "buttonText": "Make Your First Video Now",
+                    "showButton": true
+                },
+                "headerContent": {
+                    "mainTitle": "Create Videos That Captivate",
+                    "description": "Instantly produce eye-catching social media videos with AI precision tailored to your brand. No experience needed—just powerful content that connects and converts."
+                },
+                "solutionItems": [
+                    {
+                        "solutionTitle": "Dynamic Templates",
+                        "solutionSubTitle": "Custom videos in moments.",
+                        "solutionDescription": "Access a diverse collection of AI-enhanced templates engineered to maximize engagement while reflecting your unique style—launch viral-ready content effortlessly."
+                    },
+                    {
+                        "solutionTitle": "AI-Driven Editing",
+                        "solutionSubTitle": "Flawless, pro-quality edits.",
+                        "solutionDescription": "Leverage smart editing tools that automatically add seamless transitions, perfect cuts, and vibrant effects—making every video look polished and professional without the hassle."
+                    },
+                    {
+                        "solutionTitle": "Social Media Optimized",
+                        "solutionSubTitle": "Perfect fit for every platform.",
+                        "solutionDescription": "Export videos perfectly sized and formatted for Instagram, TikTok, Facebook, YouTube, and more—eliminate manual adjustments and reach your audience with precision."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "SocialProof1",
+            "props": {
+                "id": "SocialProof1-b7a2f0f1-c8c2-4599-ac15-b362e68ea90c",
+                "title": "Loved by Social Creators and Brands",
+                "description": "Hear from our users making waves on social media:",
+                "testimonials": [
+                    {
+                        "quote": "Since switching to this AI Video Generator, our engagement skyrocketed and content creation is effortless.",
+                        "title": "Social Media Manager, BrightBrand",
+                        "author": "Jack Sibire",
+                        "rating": 5,
+                        "avatarId": 4,
+                        "highlightedText": "engagement skyrocketed"
+                    },
+                    {
+                        "quote": "This tool transformed our video strategy—fast, intuitive, and perfect for social platforms.",
+                        "title": "Content Director, Mousio",
+                        "author": "Adele Mouse",
+                        "rating": 5,
+                        "avatarId": 5,
+                        "highlightedText": "transformed our video strategy"
+                    },
+                    {
+                        "quote": "The AI-driven features save us hours while boosting video quality unlike anything else we've tried.",
+                        "title": "CTO, Clockwork",
+                        "author": "Ben Clock",
+                        "rating": 5,
+                        "avatarId": 6,
+                        "highlightedText": "AI-driven features save us hours"
+                    }
+                ],
+                "titleHighlightedText": "2,047+ creators"
+            }
+        },
+        {
+            "type": "Features1",
+            "props": {
+                "id": "Features1-03643de3-fc61-4dd1-b1c5-47c573dea47c",
+                "label": "- FEATURE 1",
+                "title": "Create stunning videos instantly with ",
+                "button": {
+                    "link": "#try-for-free",
+                    "show": true,
+                    "text": "Get Started Free"
+                },
+                "description": "Our AI-powered video generator crafts eye-catching social media content in seconds, using smart templates and real-time customization to boost your engagement and save time.",
+                "titleHighlightedText": "AI"
+            }
+        },
+        {
+            "type": "Features2",
+            "props": {
+                "id": "Features2-40e2e422-d254-4f8c-897b-bc0ea03cb1bd",
+                "label": "- FEATURE 2",
+                "title": "Create stunning videos the smart ",
+                "button": {
+                    "link": "#try-for-free",
+                    "show": true,
+                    "text": "Generate Your Video"
+                },
+                "description": "Our AI-powered video generator transforms your social media content with effortless automation, delivering eye-catching videos that boost engagement and save you hours of editing time.",
+                "titleHighlightedText": "way"
+            }
+        },
+        {
+            "type": "Pricing1",
+            "props": {
+                "id": "Pricing1-c0155bec-0c50-4004-aeb5-7922d7fc6789",
+                "plans": [
+                    {
+                        "cta": "Try Basic Plan Now",
+                        "name": "Basic",
+                        "badge": "",
+                        "price": 9,
+                        "featured": false,
+                        "description": "Perfect for solo creators and new social media users",
+                        "featureFlags": [
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": false
+                            },
+                            {
+                                "value": false
+                            },
+                            {
+                                "value": false
+                            }
+                        ]
+                    },
+                    {
+                        "cta": "Level Up with Pro",
+                        "name": "Pro",
+                        "badge": "Most Popular",
+                        "price": 19,
+                        "featured": true,
+                        "description": "Ideal for influencers and growing brands craving more features",
+                        "featureFlags": [
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": false
+                            }
+                        ]
+                    },
+                    {
+                        "cta": "Unlock Business Power",
+                        "name": "Business",
+                        "badge": "",
+                        "price": 99,
+                        "featured": false,
+                        "description": "Built for agencies and enterprises demanding full customization",
+                        "featureFlags": [
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            },
+                            {
+                                "value": true
+                            }
+                        ]
+                    }
+                ],
+                "title": "Simple Pricing",
+                "features": [
+                    {
+                        "value": "Unlimited video projects"
+                    },
+                    {
+                        "value": "24/7 expert support"
+                    },
+                    {
+                        "value": "Brandable custom domains"
+                    },
+                    {
+                        "value": "In-depth AI analytics"
+                    }
+                ],
+                "description": "Transparent pricing that fits every creator’s budget without compromising power."
+            }
+        },
+        {
+            "type": "FAQ1",
+            "props": {
+                "id": "FAQ1-0b107a8f-6fbf-4902-a384-280bc30c5097",
+                "faqs": [
+                    {
+                        "question": "How does the AI video generator work?",
+                        "answer": "Our AI-powered tool transforms your ideas into stunning social media videos in minutes, using advanced algorithms and customizable templates—no experience needed."
+                    },
+                    {
+                        "question": "What benefits can I expect?",
+                        "answer": "Create eye-catching videos faster, boost your social media engagement, save on production costs, and effortlessly scale your content strategy with our smart automation."
+                    },
+                    {
+                        "question": "Is it beginner-friendly?",
+                        "answer": "Definitely! Our intuitive interface lets anyone produce professional-quality videos without any editing skills or technical know-how."
+                    },
+                    {
+                        "question": "Can I get custom features or pricing?",
+                        "answer": "Yes! Reach out to our team for personalized plans tailored to your unique content goals and volume requirements."
+                    },
+                    {
+                        "question": "Is there a free trial available?",
+                        "answer": "Absolutely. Try all features free for 14 days with no credit card required and cancel anytime if it’s not the perfect fit."
+                    },
+                    {
+                        "question": "How do I get started?",
+                        "answer": "Click the 'Create Video' button on the top right or visit our pricing page to pick the best plan and start generating videos instantly."
+                    }
+                ],
+                "title": "FAQs"
+            }
+        },
+        {
+            "type": "About1",
+            "props": {
+                "id": "About1-f69c71a0-2c9a-4cbb-81b4-0e2aff409c85",
+                "label": "- DISCOVER OUR AI",
+                "outro": "Join thousands of creators transforming social media with effortless, stunning videos. Experience the future of video creation today! 🚀",
+                "heading": "Meet Your AI Video Partner",
+                "subtitle": "Transform your social media videos instantly.",
+                "paragraphs": [
+                    {
+                        "value": "Our AI Video Generator tool empowers you to create eye-catching social media videos in minutes, no editing skills needed."
+                    },
+                    {
+                        "value": "Content creators ask us:"
+                    },
+                    {
+                        "value": "- How can I save time on video production?\n- How do I make engaging videos that get noticed?"
+                    },
+                    {
+                        "value": "Our solution: smart automation paired with creative control for videos that stand out and drive engagement."
+                    }
+                ],
+                "principles": [
+                    {
+                        "title": "Effortless video creation",
+                        "description": "AI-driven templates and smart editing to produce professional videos in seconds"
+                    },
+                    {
+                        "title": "Tailored for social media",
+                        "description": "Optimized formats and styles designed to boost reach and engagement across platforms"
+                    },
+                    {
+                        "title": "Powerful yet simple",
+                        "description": "User-friendly interface with advanced AI features for creators at any skill level"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "CTA1",
+            "props": {
+                "id": "CTA1-899ad685-070f-4415-9413-81273bea7701",
+                "button": {
+                    "link": "#start-trial",
+                    "show": true,
+                    "text": "Create Stunning Videos Now"
+                },
+                "avatars": [
+                    {
+                        "avatarId": 32
+                    },
+                    {
+                        "avatarId": 44
+                    },
+                    {
+                        "avatarId": 65
+                    },
+                    {
+                        "avatarId": 75
+                    },
+                    {
+                        "avatarId": 12
+                    },
+                    {
+                        "avatarId": 68
+                    }
+                ],
+                "heading": "Elevate Your Social Reach",
+                "description": "Transform your social media with AI-powered video creation that’s fast, effortless, and tailored to captivate your audience.",
+                "foundersCount": 3582
+            }
+        }
+    ]
+}
