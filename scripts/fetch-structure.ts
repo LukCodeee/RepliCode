@@ -2,15 +2,15 @@ import fs from 'fs';
 import path from 'path';
 
 async function run() {
-  const id = process.env.STRUCTURE_ID;
-  const endpoint = process.env.STRUCTURE_API || 'https://yourdomain.com/api/structure';
+  const id = process.env.TEMPLATE_ID;
+  const endpoint = process.env.TEMPLATE_API || 'https://replicode.co/api/templates/';
 
   if (!id) {
     console.error('STRUCTURE_ID is missing');
     process.exit(1);
   }
 
-  const res = await fetch(`${endpoint}?id=${id}`);
+  const res = await fetch(`${endpoint}${id}`);
   if (!res.ok) {
     console.error(`Failed to fetch structure: ${res.status}`);
     process.exit(1);

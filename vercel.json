@@ -1,0 +1,12 @@
+{
+    "env": {
+      "TEMPLATE_ID": {
+        "type": "text",
+        "value": "example123"
+      },
+      "TEMPLATE_API": {
+        "type": "text",
+        "value": "https://replicode.co/api/templates/"
+      }
+    }
+  }
