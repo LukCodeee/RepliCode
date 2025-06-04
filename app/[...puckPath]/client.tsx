@@ -1,7 +1,7 @@
 "use client";
 
 import { Button, Puck, Render } from "@measured/puck";
-import config from "../../config";
+import config from "../../config/puck.config";
 import data from "../../data.json";
 import { useEffect, useState } from "react";
 

@@ -1,7 +1,7 @@
 import { ComponentConfig } from '@measured/puck';
 import React from 'react';
 
-export type Hero1Props = {
+export type HeroPropsTemplate2 = {
   tagline: string;
   title: string;
   highlightedWord: string;
@@ -17,7 +17,7 @@ export type Hero1Props = {
   };
 };
 
-export const Hero1: ComponentConfig<Hero1Props> = {
+export const HeroTemplate2: ComponentConfig<HeroPropsTemplate2> = {
   fields: {
     tagline: { type: "text", label: "Tagline (Small text above title)" },
     title: { 
@@ -144,13 +144,6 @@ export const Hero1: ComponentConfig<Hero1Props> = {
                 </a>
               )}
             </div>
-          </div>
-          <div className="flex-1 flex justify-center items-center p-6">
-              <img 
-                src="/images/template-blocks-placeholders/img-hero1.png"
-                alt="Hero image placeholder"
-                className={`max-w-full h-auto object-contain md:max-w-full md:mt-0 mt-8 hover:-translate-y-1 transition-transform duration-300`}
-              />
           </div>
         </div>
       </section>

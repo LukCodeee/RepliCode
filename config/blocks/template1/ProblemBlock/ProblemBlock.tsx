@@ -37,7 +37,7 @@ const iconMap = {
   DollarSign: DollarSign,
 };
 
-export const ProblemBlock1: ComponentConfig<ProblemBlockProps> = {
+export const ProblemBlock: ComponentConfig<ProblemBlockProps> = {
   fields: {
     comparisonHeadline: { type: "text", label: "Headline" },
     highlightedWord: { type: "text", label: "Highlighted Word in Headline" },
@@ -164,7 +164,7 @@ export const ProblemBlock1: ComponentConfig<ProblemBlockProps> = {
       formattedHeadline = comparisonHeadline;
     }
     return (
-      <div className="w-full py-24 bg-white max-w-7xl mx-auto">
+      <div className="w-full py-24 max-w-7xl mx-auto">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="font-poppins text-4xl leading-[80px] font-semibold text-[#030303]">{formattedHeadline}</h2>

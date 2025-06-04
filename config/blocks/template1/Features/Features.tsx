@@ -1,6 +1,6 @@
 import { ComponentConfig } from "@measured/puck";
 
-export type FeaturesProps1 = {
+export type FeaturesProps = {
   label: string;
   title: string;
   titleHighlightedText: string;
@@ -12,7 +12,7 @@ export type FeaturesProps1 = {
   };
 };
 
-export const Features1: ComponentConfig<FeaturesProps1> = {
+export const Features: ComponentConfig<FeaturesProps> = {
   fields: {
     label: { type: "text", label: "Section Label (above title)" },
     title: { type: "text", label: "Section Title (main, without highlight)" },

@@ -11,14 +11,14 @@ export type PricingPlan = {
   featureFlags: { value: boolean }[];
 };
 
-export type PricingProps1 = {
+export type PricingProps = {
   title: string;
   description: string;
   features: { value: string }[];
   plans: PricingPlan[];
 };
 
-export const Pricing1: ComponentConfig<PricingProps1> = {
+export const Pricing: ComponentConfig<PricingProps> = {
   fields: {
     title: { type: "text", label: "Section Title" },
     description: { type: "textarea", label: "Section Description" },

@@ -10,12 +10,12 @@ export type FAQItem = {
   answer: string;
 };
 
-export type FAQProps1 = {
+export type FAQProps = {
   title: string;
   faqs: FAQItem[];
 };
 
-export const FAQ1: ComponentConfig<FAQProps1> = {
+export const FAQ: ComponentConfig<FAQProps> = {
   fields: {
     title: { type: "text", label: "Section Title" },
     faqs: {

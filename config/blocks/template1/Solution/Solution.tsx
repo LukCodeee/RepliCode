@@ -1,8 +1,7 @@
 import { ComponentConfig } from '@measured/puck';
 import React from 'react';
-import { Image as ImageIcon } from 'lucide-react';
 
-export interface Solution1Props {
+export interface SolutionProps {
   headerContent: {
     mainTitle: string;
     description: string;
@@ -19,7 +18,7 @@ export interface Solution1Props {
   }[];
 }
 
-export const Solution1: ComponentConfig<Solution1Props> = {
+export const Solution: ComponentConfig<SolutionProps> = {
   fields: {
     headerContent: {
       type: 'object',

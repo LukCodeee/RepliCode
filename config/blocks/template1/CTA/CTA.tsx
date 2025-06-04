@@ -4,7 +4,7 @@ export type CTAAvatar = {
   avatarId: number;
 };
 
-export type CTAProps1 = {
+export type CTAProps = {
   heading: string;
   description: string;
   button: {
@@ -16,7 +16,7 @@ export type CTAProps1 = {
   avatars: CTAAvatar[];
 };
 
-export const CTA1: ComponentConfig<CTAProps1> = {
+export const CTA: ComponentConfig<CTAProps> = {
   fields: {
     heading: { type: "text", label: "Main Heading" },
     description: { type: "textarea", label: "Description" },

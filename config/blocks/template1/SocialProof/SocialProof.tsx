@@ -1,7 +1,7 @@
 import { ComponentConfig } from "@measured/puck";
 import { StarIcon } from "lucide-react";
 
-export type SocialProofProps1 = {
+export type SocialProofProps = {
   title: string;
   titleHighlightedText: string;
   description: string;
@@ -68,7 +68,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   );
 };
 
-export const SocialProof1: ComponentConfig<SocialProofProps1> = {
+export const SocialProof: ComponentConfig<SocialProofProps> = {
   fields: {
     title: { type: "text", label: "Section Title (main, without highlight)" },
     titleHighlightedText: { type: "text", label: "Section Title Highlighted Text (will be emphasized)" },

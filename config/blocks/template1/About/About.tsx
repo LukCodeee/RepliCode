@@ -5,7 +5,7 @@ export type AboutPrinciple = {
   description: string;
 };
 
-export type AboutProps1 = {
+export type AboutProps = {
   label: string;
   heading: string;
   subtitle: string;
@@ -14,7 +14,7 @@ export type AboutProps1 = {
   outro: string;
 };
 
-export const About1: ComponentConfig<AboutProps1> = {
+export const About: ComponentConfig<AboutProps> = {
   fields: {
     label: { type: "text", label: "Section Label (above heading)" },
     heading: { type: "text", label: "Main Heading" },
